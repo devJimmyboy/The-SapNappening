@@ -1,0 +1,26 @@
+{
+  "name": "the-sapnappening",
+  "version": "0.1.0",
+  "description": "A recreation of JSchlatt",
+  "main": "index.ts",
+  "repository": "https://github.com/devJimmyboy/the-sappening",
+  "author": "devJimmyboy",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.1",
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.2",
+    "got": "^12.0.0"
+  },
+  "scripts": {
+    "dev": "ts-node-dev --deps --cls --debounce 500 src/index.ts"
+  }
+}
